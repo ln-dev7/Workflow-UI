@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DashBoard UI</title>
+    <link rel="stylesheet" href="styles/login.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h2>Bienvenue sur votre panel <br> d’administration</h2>
+        <div class="container-input">
+            <label for="email">Adresse email</label>
+            <input id="email" type="text" placeholder="Entrez votre adresse email">
+        </div>
+        <div class="container-input">
+            <label for="password">Mot de passe</label>
+            <input id="password" type="password" placeholder="Entrez votre mot de passe">
+        </div>
+        <div class="container-options">
+            <h4>
+                <input id="checkox" type="checkbox">
+                <label for="checkox">Se souvenir de moi</label>
+            </h4>
+            <h3>Mot de passe oublie ?</h3>
+        </div>
+        <a href="pages/admin.html">
+            <button class="container-button">
+                Se connecter
+            </button>
+        </a>
+    </div>
 </body>
+
 </html>

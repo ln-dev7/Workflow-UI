@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 $or: #E9AD38;
 $yellow: #ECC94B;
 $red: #E02324;
@@ -9,8 +8,9 @@ $green: #057A55;
 $gray: #D2D6DC;
 $black: #000;
 $white: #fff;
-
-*, ::before, ::after{
+*,
+ ::before,
+ ::after {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: $black;
@@ -19,17 +19,17 @@ $white: #fff;
     padding: 0;
     scroll-behavior: smooth;
 }
- 
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
 
-li{
+li {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
